@@ -15,7 +15,7 @@ def table(row_tuple, column_width):
     out = out + "\n"
     return out
 
-con = sqlite3.connect(r'/Users/adammalyshev/Documents/projects/data/paperdoll/data/chictopia/chictopia.sqlite3')
+con = sqlite3.connect(r'C:\Users\adamm\Documents\Programs\data\paperdoll\data\chictopia/chictopia.sqlite3')
 cur = con.cursor()
 cur2 = con.cursor()
 cur3 = con.cursor()
